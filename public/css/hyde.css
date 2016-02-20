@@ -180,7 +180,7 @@ a.sidebar-nav-item:focus {
 /* image */
 .theme-image .sidebar {
   background-color: rgb(251, 252, 253);
-  background-image: url("../Receiving Stats 2015.png");
+  background-image: url("../Correlation_drop.png");
   background-position: 5% 150%;
   background-repeat: no-repeat;
   border-style: solid;
@@ -192,7 +192,7 @@ a.sidebar-nav-item:focus {
 .theme-image .sidebar h1,
 .theme-image .content a,
 .theme-image .related-posts li a:hover {
-  text-shadow: 1px 1px #c1c1a4;
+  /*text-shadow: 1px 1px #c1c1a4;*/
   /*color: #331900;*/
   color: #000000;
 }
