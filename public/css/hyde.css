@@ -181,7 +181,7 @@ a.sidebar-nav-item:focus {
 .theme-image .sidebar {
   background-color: rgb(251, 252, 253);
   background-image: url("../Correlation_drop.png");
-  background-position: 5% 150%;
+  background-position: 5% 0%;
   background-repeat: no-repeat;
   border-style: solid;
   border-width: 0px 10px 0px 0px;
