@@ -190,11 +190,13 @@ a.sidebar-nav-item:focus {
 .theme-image .sidebar a,
 .theme-image .sidebar p,
 .theme-image .sidebar h1,
-.theme-image .content a,
+.theme-image .content a, {
+  color: #fff;
+}
 .theme-image .related-posts li a:hover {
   /*text-shadow: 1px 1px #c1c1a4;*/
   /*color: #331900;*/
-  color: #fff;
+  color: #000000;
 }
 
 /* Red */
