@@ -181,7 +181,7 @@ a.sidebar-nav-item:focus {
 .theme-image .sidebar {
   background-color: rgb(251, 252, 253);
   background-image: url("../DSC_0186.JPG");
-  background-position: 5% 0%;
+  background-position: center center;
   background-repeat: no-repeat;
   border-style: solid;
   border-width: 0px 10px 0px 0px;
