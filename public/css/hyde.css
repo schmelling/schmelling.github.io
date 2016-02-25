@@ -179,9 +179,9 @@ a.sidebar-nav-item:focus {
 
 /* image */
 .theme-image .sidebar {
-  background-color: #000;
+  background-color: #191919;
   background-image: url("../weather.png");
-  background-position: 0% 5%;
+  background-position: top left;
   background-repeat: no-repeat;
   border-style: solid;
   border-width: 0px 10px 0px 0px;
@@ -191,12 +191,12 @@ a.sidebar-nav-item:focus {
 .theme-image .sidebar p,
 .theme-image .sidebar h1,
 .theme-image .content a, {
-  color: #000000;
+  color: #191919;
 }
 .theme-image .related-posts li a:hover {
   /*text-shadow: 1px 1px #c1c1a4;*/
   /*color: #331900;*/
-  color: #000000;
+  color: #191919;
 }
 
 /* Red */
