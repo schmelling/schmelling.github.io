@@ -199,6 +199,23 @@ a.sidebar-nav-item:focus {
   color: #191919;
 }
 
+/* White */
+.theme-white .sidebar {
+  background-color: #fff;
+}
+
+.theme-white .sidebar a,
+.theme-white .sidebar p,
+.theme-white .sidebar h1,
+.theme-white .content a {
+  color: #191919;
+}
+.theme-white .related-posts li a:hover {
+  /*text-shadow: 1px 1px #c1c1a4;*/
+  /*color: #331900;*/
+  color: #191919;
+}
+
 /* Red */
 .theme-base-08 .sidebar {
   background-color: #ac4142;
