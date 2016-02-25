@@ -181,7 +181,7 @@ a.sidebar-nav-item:focus {
 .theme-image .sidebar {
   background-color: #fff;
   background-image: url("../weather.png");
-  background-position: left;
+  background-position: top left;
   background-repeat: no-repeat;
   border-style: solid;
   border-width: 0px 10px 0px 0px;
