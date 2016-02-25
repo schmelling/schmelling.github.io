@@ -190,7 +190,7 @@ a.sidebar-nav-item:focus {
 .theme-image .sidebar a,
 .theme-image .sidebar p,
 .theme-image .sidebar h1,
-.theme-image .content a, {
+.theme-image .content a {
   color: #191919;
 }
 .theme-image .related-posts li a:hover {
