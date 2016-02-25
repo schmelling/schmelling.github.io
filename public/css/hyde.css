@@ -191,7 +191,7 @@ a.sidebar-nav-item:focus {
 .theme-image .sidebar p,
 .theme-image .sidebar h1,
 .theme-image .content a, {
-  color: #000;
+  color: #000000;
 }
 .theme-image .related-posts li a:hover {
   /*text-shadow: 1px 1px #c1c1a4;*/
