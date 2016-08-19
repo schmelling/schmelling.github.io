@@ -1,0 +1,16 @@
+/* Initial body */
+body {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+}
+
+/* Basic styling */
+
+h1{
+  color: #000;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
