@@ -6,3 +6,4 @@ navbar:
       href: index.html
     - text: "Protocols Hackathon"
       href: hackathon.html
+output_dir: "."
