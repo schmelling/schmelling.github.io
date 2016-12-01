@@ -6,4 +6,7 @@ navbar:
       href: index.html
     - text: "Protocols Hackathon"
       href: hackathon.html
+output:
+  html_document:
+    css: style.css
 output_dir: "."
