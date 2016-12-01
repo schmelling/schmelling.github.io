@@ -1,0 +1,8 @@
+name: "Nicolas Schmelling - Computational Biologist and Data Scientist"
+navbar:
+  title: "Nicolas Schmelling"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Protocols Hackathon"
+      href: hackathon.html
