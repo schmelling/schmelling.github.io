@@ -41,4 +41,4 @@ Time | Session
 
 * [ORCID](https://orcid.org)
 * [protocols.io](https://www.protocols.io)
-* [Protocol Template](https://docs.google.com/document/d/1NX-07dy9ptrPwhF9-g8ktGHTJ9HPI5JmEZK0bdv82fA/pub)
+* [Protocol Template](https://docs.google.com/document/d/1NX-07dy9ptrPwhF9-g8ktGHTJ9HPI5JmEZK0bdv82fA/edit?usp=sharing)
