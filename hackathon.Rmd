@@ -6,7 +6,7 @@ title: ""
 
 ## Protocols Hackathon
 
-#### Date tba
+#### 19.+20. December, 2016
 #### Heinrich-Heine University, Institute of Synthetic Microbiology
 
 ---
@@ -17,7 +17,7 @@ Ever spend hours on searching for the protocol that was used in a paper? It can 
 ### Schedule
 __Location: tba__
 
-#### Date tba
+#### 19. December 2016
 Time | Session 
 ---- | -------
 09:00 - 09:30 | [ORCID](https://orcid.org) Set up 
@@ -29,7 +29,7 @@ Time | Session
 
 <nowiki>*</nowiki> for motivated people: Hackathon Session II.2
 
-#### Date tba
+#### 20. December 2016
 Time | Session 
 ---- | -------
 10:00 - 12:00 | Hackathon Session III 
