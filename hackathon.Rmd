@@ -17,6 +17,8 @@ Ever spend hours on searching for the protocol that was used in a paper? It can 
 ### Schedule
 __Location: Heinrich-Heine University Düsseldorf, Room:tba__
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1627.124613872837!2d6.798101831702421!3d51.1879986809241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1481289357392" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 #### 19. December 2016
 Time | Session 
 ---- | -------
