@@ -7,7 +7,7 @@ title: ""
 ## Protocols Hackathon
 
 #### 19.+20. December, 2016
-#### Heinrich-Heine University, Institute of Synthetic Microbiology
+#### Heinrich-Heine University Düsseldorf, Institute of Synthetic Microbiology
 
 ---
 ### Idea
@@ -15,13 +15,13 @@ title: ""
 Ever spend hours on searching for the protocol that was used in a paper? It can be much simpler than that if researchers would openly share their protocols. The idea for this hackathon is exactly this. We want to show a way to __share your protocols online and get credit for your work__. We found that [protocols.io](https://www.protocols.io) is the perfect platform for this endeavor. But it is not only about sharing your procotols so others can easier access your work. You can also add changes to existing protocols, if you found that they weren't working the way they were suppose to, and help to improve it. Futhermore, it creates a platform to collect all the protocols you are using in the lab, including protocols from commercial suppliers such as [New England Biolabs](https://www.protocols.io/groups/new-england-biolabs-neb). No more searchring for a protocol on a lab computer or USB drive to show it to a new lab member. Just add her to the group and she will be able to access all protocols online through the web browser or a mobile app.
 
 ### Schedule
-__Location: tba__
+__Location: Heinrich-Heine University Düsseldorf, Room:tba__
 
 #### 19. December 2016
 Time | Session 
 ---- | -------
-09:00 - 09:30 | [ORCID](https://orcid.org) Set up 
-09:30 - 10:30 | Introduction to [protocols.io](https://www.protocols.io) & How to upload a new protocol 
+09:00 - 10:00 | [ORCID](https://orcid.org) Set up + Introduction to [protocols.io](https://www.protocols.io)
+10:00 - 10:30 | How to upload a new protocol 
 10:30 - 12:00 | Hackathon Session I
 12:00 - 13:00 | Lunch
 13:00 - 18:00 | Hackathon Session II
