@@ -6,6 +6,8 @@ navbar:
       href: index.html
     - text: "Protocols Hackathon"
       href: hackathon.html
+    - text: "Study Group"
+      href: "https://openhhucoders.github.io/studyGroup/"
 output:
   html_document:
     css: style.css
