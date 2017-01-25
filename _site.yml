@@ -8,6 +8,8 @@ navbar:
       href: hackathon.html
     - text: "Study Group"
       href: "https://openhhucoders.github.io/studyGroup/"
+    - text: "Cyano2017"
+      href: cyano2017.html
 output:
   html_document:
     css: style.css

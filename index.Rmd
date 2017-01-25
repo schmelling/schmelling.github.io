@@ -23,7 +23,7 @@ Universitätstrasse 1
 Room: 26.23.U1.36        
 
 Phone: +49 211 81 10361        
-Mail: Nicolas.Schmelling@hhu.de          
+Mail: [Nicolas.Schmelling@hhu.de](mailto:nicolas.schmelling@hhu.de)          
 
 
 [![](images/linkedin.png)](https://de.linkedin.com/in/nicschmelling)
