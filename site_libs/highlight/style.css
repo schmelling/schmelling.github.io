@@ -1,15 +1,12 @@
 body {
   font-family: Roboto, sans-serif;
-  width: auto;
   margin: 0;
   padding: 0;
+  background-color: #F4F7ED;
+  color: #2B3752;
 }
 
-main {
-  margin-left: auto;
-  margin-right: auto;
-  width: 85%;
-}
+/*rgb(23, 163, 54) old green color*/
 
 h1 {
   font-weight: 500;
@@ -23,13 +20,9 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
   width: 100%;
-  background-color: rgb(23, 163, 54)
+  background-color: #2E6E65;
 }
 
 nav li {
@@ -37,30 +30,29 @@ nav li {
 }
 
 nav a {
-  font-weight: 300;
-  text-transform: uppercase;
   display: block;
-  color: white;
+  font-weight: 300;
+  color: #F4F7ED;
+  text-transform: uppercase;
   text-decoration: none;
   text-align: center;
-  padding: 10px 10px;
+  padding: 10px;
+  background-color: #2E6E65;
+  border-right: 2px solid #F4F7ED;
 }
 
-nav li a {
-  background-color: rgb(23, 163, 54);
-}
-
-nav li a:hover {
-  background-color: white;
-  color: rgb(23, 163, 54);
+nav a:hover {
+  background-color: #F4F7ED;
+  color:  #2E6E65;
   font-weight: 500;
 }
 
 header {
   height: 300px;
   width: 100%;
-  background-color: rgb(23, 163, 54);
-  color: white;
+  background-color: #2E6E65;
+  color: #F4F7ED;
+  overflow: auto;
 }
 
 header h2 {
@@ -79,45 +71,55 @@ header h2 {
   padding-top: 50px;
 }
 
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+#info {
+  line-height: 1.5;
+}
+
+#info a {
+  color: #2B3752;
+}
+
 .names {
-  line-height: 25px;
+  line-height: 1.5;
 }
 
 .button {
-  width: 300px;
-  background-color: rgb(23, 163, 54);
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 7px;
-}
-
-.button {
-  border: 3px solid white;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .button a {
-  color: white;
+  width: 300px;
+  background-color: #2E6E65;
+  padding: 15px;
+  border-radius: 7px;
+  color: #F4F7ED;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 30px;
-}
-
-.button:hover {
-  background-color: white;
-  border: 3px solid rgb(23, 163, 54);
+  border: 3px solid #F4F7ED;
 }
 
 .button a:hover {
-  color: rgb(23, 163, 54);
+  color: #2E6E65;
   font-weight: 500;
+  background-color: rgba(23, 163, 54, 0.3);
+  border: 3px solid #2E6E65;
 }
 
 table {
   width: 50%;
   border-collapse: collapse;
+  line-height: 1.5;
 }
 
 th, td {
@@ -125,8 +127,8 @@ th, td {
 }
 
 th {
-  background-color: rgb(23, 163, 54);
-  color: white;
+  background-color: #2E6E65;
+  color: #F4F7ED;
   text-align: left;
 }
 
@@ -135,10 +137,18 @@ td {
 }
 
 tr:hover {
-  background-color: rgb(23, 163, 54);
-  color: white;
+  background-color: #2E6E65;
+  color: #F4F7ED;
+}
+
+footer h3 {
+  font-size: 16px;
+}
+
+footer p {
+  font-size: 12px;
 }
 
 footer a {
-  color: black;
+  color: #2B3752;
 }
