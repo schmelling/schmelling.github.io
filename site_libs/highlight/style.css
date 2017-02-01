@@ -6,6 +6,9 @@ body {
   color: #2B3752;
 }
 
+body p {
+  font-size: 16px;
+}
 /*rgb(23, 163, 54) old green color*/
 
 h1 {
@@ -137,6 +140,11 @@ td {
 tr:hover {
   background-color: #2E6E65;
   color: #F4F7ED;
+}
+
+#travel p, a {
+  color: #2B3752;
+  line-height: 1.5;
 }
 
 .names {
