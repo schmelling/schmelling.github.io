@@ -131,6 +131,7 @@ th {
 
 td {
   font-weight: 300;
+  min-width: 150px;
 }
 
 tr:hover {
