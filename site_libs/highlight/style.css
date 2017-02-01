@@ -85,10 +85,6 @@ main {
   color: #2B3752;
 }
 
-.names {
-  line-height: 1.5;
-}
-
 .button {
   text-align: center;
   margin-left: auto;
@@ -120,6 +116,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   line-height: 1.5;
+  max-width: 800px;
 }
 
 th, td {
@@ -139,6 +136,14 @@ td {
 tr:hover {
   background-color: #2E6E65;
   color: #F4F7ED;
+}
+
+.names {
+  line-height: 1.5;
+}
+
+iframe {
+  min-width: 300px;
 }
 
 footer h3 {
