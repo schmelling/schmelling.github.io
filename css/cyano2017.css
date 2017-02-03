@@ -4,6 +4,8 @@ body {
   padding: 0;
   background-color: #F4F7ED;
   color: #2B3752;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
 }
 
 body p {
@@ -30,6 +32,11 @@ nav ul {
 
 nav li {
   float: left;
+  border-right: 2px solid #F4F7ED;
+}
+
+nav li:last-child {
+  border-right: none;
 }
 
 nav a {
@@ -39,9 +46,9 @@ nav a {
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
+  letter-spacing: 0.05em;
   padding: 10px;
   background-color: #2E6E65;
-  border-right: 2px solid #F4F7ED;
 }
 
 nav a:hover {

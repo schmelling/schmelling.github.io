@@ -1,264 +1,119 @@
 <!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+    <meta name="author" content="Nicolas Schmelling">
+    <meta name="description" content="Personal Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="pandoc" />
-
-
-
-
-<title></title>
-
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-
-<style type="text/css">code{white-space: pre;}</style>
-<link rel="stylesheet"
-      href="site_libs/highlight/default.css"
-      type="text/css" />
-<script src="site_libs/highlight/highlight.js"></script>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
-<script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
-}
-</script>
-
-
-
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
-
-<link rel="stylesheet" href="style.css" type="text/css" />
-
-</head>
-
-<body>
-
-<style type = "text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
-img {
-  max-width:100%;
-  height: auto;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-</style>
-
-
-<style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-</style>
-
-<script>
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark it active
-  menuAnchor.parent().addClass('active');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
-});
-</script>
-
-
-<div class="container-fluid main-container">
-
-<!-- tabsets -->
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
-
-<!-- code folding -->
-
-
-
-
-
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Nicolas Schmelling</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
-  <a href="hackathon.html">Protocols Hackathon</a>
-</li>
-<li>
-  <a href="https://openhhucoders.github.io/studyGroup/">Study Group</a>
-</li>
-<li>
-  <a href="cyano2017.html">Cyano2017</a>
-</li>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i|Raleway:800|Roboto:300,500" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li style="float:left"><a href="#" class="logo logo-mono home">Home</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://openhhucoders.github.io/studyGroup/" target="_blank">Study Group</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Projects</a>
+          <div class="dropdown-content">
+            <a href="http://schmelling.github.io/cyano2017.html" target="_blank">Cyano2017 Conference</a>
+          </div>
+        </li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#about">About</a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
-
-<div class="fluid-row" id="header">
-
-
-
-
-</div>
-
-
-<div id="section" class="section level2">
-<h2><img src="images/title_image.jpg" /></h2>
-</div>
-<div id="nicolas-schmelling" class="section level2">
-<h2>Nicolas Schmelling</h2>
-<div id="computational-biologist-data-scientist" class="section level4">
-<h4>Computational Biologist &amp; Data Scientist</h4>
-<div class="figure">
-<img src="images/NicolasSchmelling_small.jpg" />
-
-</div>
-<hr />
-</div>
-<div id="contact" class="section level3">
-<h3>Contact</h3>
-<p>Nicolas Schmelling<br />
-Doctoral Student<br />
-Heinrich-Heine-University Düsseldorf<br />
-Institute of Synthetic Microbiology<br />
-Jun.-Prof. Dr. Ilka M. Axmann</p>
-<p>Universitätstrasse 1<br />
-40225 Düsseldorf<br />
-Room: 26.23.U1.36</p>
-<p>Phone: +49 211 81 10361<br />
-Mail: <a href="mailto:nicolas.schmelling@hhu.de">Nicolas.Schmelling@hhu.de</a></p>
-<p><a href="https://de.linkedin.com/in/nicschmelling"><img src="images/linkedin.png" /></a> <a href="http://orcid.org/0000-0002-6981-397X"><img src="images/orcid.png" /></a> <a href="https://twitter.com/derschmelling"><img src="images/twitter.png" /></a> <a href="https://github.com/schmelling"><img src="images/github.png" /></a> <a href="https://www.youtube.com/channel/UC9c2TOIhMFmH1tU9fhlzP2A"><img src="images/youtube.png" /></a></p>
-</div>
-</div>
-
-
-
-
-</div>
-
-<script>
-
-// add bootstrap table styles to pandoc tables
-$(document).ready(function () {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
-});
-
-
-</script>
-
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
-
-</body>
+    </nav>
+    <header>
+      <img src="img/title_image.jpg">
+    </header>
+    <section class="social-media">
+      <a href="https://de.linkedin.com/in/nicschmelling" target="_blank" class="icon icon-mono linkedin">linkedin</a>
+      <a href="https://twitter.com/derschmelling" target="_blank" class="icon icon-mono twitter">twitter</a>
+      <a href="http://orcid.org/0000-0002-6981-397X" target="_blank" class="icon icon-mono orcid">orcid</a>
+      <a href="https://github.com/schmelling" target="_blank" class="icon icon-mono github">github</a>
+      <a href="https://www.youtube.com/channel/UC9c2TOIhMFmH1tU9fhlzP2A" target="_blank" class="icon icon-mono youtube">youtube</a>
+    </section>
+    <main>
+      <section id="about">
+        <h1>About</h1>
+        <img src="img/pic_square.jpg" style="margin-right:10%">
+        <p>Hi there, I am Nic, a <span>computational biologist</span> and <span>data scientist</span> in the making.<br>
+           When I&rsquo;m not wrangling data sets, I&rsquo;m passionate about <span>open science,
+           data visualization, teaching, scientific communication, &amp; web design</span>.</p>
+      </section>
+      <section id="blog">
+        <h1>Blog</h1>
+        <div class="post">
+          <h2>&ldquo;I could have downloaded the ugly word doc from the server or simply use protocols.io&rdquo;</h2>
+          <p>A question that always comes up when talking about protocols.io adresses the problem of repeating a method from a
+             published paper for your own research. I think every researcher in the life sciences already had this problem.
+             You catch yourself reading a paper and thinking &ldquo;Wow, this method could be really helpful to solve my problem XY&rdquo;,
+             then you&rsquo;re browsing through the method section, reading what is often just two sentences about the method you&rsquo;re
+             interested in, and than think &ldquo;How on earth should I make sense out of it and actually reproduce this experiment?&rdquo;.
+             It is not the researcher who is to blame for that, because often enough you have a space limit for your publication
+             and you rather cut the method section than your precious results or discussion. This, however, puts a huge burden
+             on the <a href="http://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970" target="_blank">reproducibility</a>
+             of the study and the credibility of the whole community. That&rsquo;s one of the
+             <a href="https://www.protocols.io/groups/verve-net/discussions/why-do-protocols-matter" target="_blank">reason</a>
+             why many studies can&rsquo;t be reproduced.<br>
+             I&rsquo;m currently part of <a href="https://www.wikimedia.de/wiki/Fellowprogramm" target="_blank">Wikimedia&rsquo;s Open Science fellow program</a>,
+             part of which it is to raise awareness for open science practices in the lab, department, or community. So I was looking
+             for a solution to the previously described problem and also a solution for our lab to organize our protocols in a
+             centralized repository. That&rsquo;s when I came across
+             <a href="https://www.protocols.io/" target="_blank">protocols.io</a>, a platform, which addresses this issue of giving the description
+             of methods its deserved space. After some initial testing on my own, I thought it would be best to organize a
+             hackathon where we come together and digitize our lab protocols and put protocols.io through its paces.<br>
+             A hackathon or even a couple of hours is the perfect setting for such an endeavor, because it is really hard to:
+          </p>
+          <ul>
+            <li>motivate people to write down their methods in a reproducible way and</li>
+            <li>to get people to interrupt their &ldquo;important&rdquo; research for such a trivial thing.</li>
+          </ul>
+          <p>If you&rsquo;re a grad student like myself, it is really helpful to get your PI to support this or maybe even
+             let her require an attendance.<br>
+             So, I organized a <a href="https://github.com/schmelling/protocol_hackathon" target="_blank">two day hackathon</a>
+             the week before Christmas and almost everyone showed up (even though it was not mandatory ;-). We started by
+             first writing a Word document, if it wasn&rsquo;t already available and then copy/paste it into the text boxes
+             on protocols.io. This worked worse than I thought it would and cost us a lot of time. I recommend to
+             directly use the interface on protocols.io and export a PDF in the end or copy/paste it into a Word document,
+             if that is was you prefer. The reason why copy/paste didn&rsquo;t worked so well is just that you sometimes
+             need to create a second protocol for the preparation of a single step. For example, you want to purify
+             proteins and later separate them on a gel. The preparation of the gel is a little bit more complex,
+             so you create a second protocol for this. In your Word file it would, however, just be a couple of side steps.<br>
+             Overall, I think the hackathon was a great success, <a href="https://www.protocols.io/groups/axmann-lab" target="_blank">we</a>
+             created roughly 30 protocols, 10 of which are already openly available on protocols.io under CC-BY license.
+             I think not the amount of protocols is important here, it was more that people actually recognized how
+             important the creation of methods are and how much time it takes to do it. In the end we all agreed that
+             it is worth doing and appreciated the presence of a platform like protocols.io. One thing that amazed me
+             the most, was that people in the lab started using protocols.io's ability to interactively run protocols
+             in the web browser or on your smartphone.
+             <blockquote>&ldquo;I could have downloaded the ugly word doc from the server or simply use protocols.io&rdquo;</blockquote>
+          </p>
+        </div>
+        <p class="blog">This blog post was also published on the <a href="https://www.protocols.io/groups/protocolsio-ambassadors/news/organizing-a-hackathon-to-digitize-our-lab-protocols" target="_blank">protocols.io blog</a>.</p>
+        <p class="blog">More blog post can be found on <a href="#">medium</a>.</p>
+      </section>
+    </main>
+    <hr>
+    <footer id="contact">
+      <h3>Contact</h3>
+      <p>Nicolas Schmelling<br>
+         Doctoral Student<br>
+         Heinrich-Heine-University Düsseldorf<br>
+         Institute of Synthetic Microbiology<br>
+         Jun.-Prof. Dr. Ilka M. Axmann<br>
+         <br>
+         Universitätstrasse 1<br>
+         40225 Düsseldorf<br>
+         Room: 26.23.U1.36<br>
+         <br>
+         Phone: +49 211 81 10361<br>
+         Mail: <a href="mailto:Nicolas.Schmelling@hhu.de">Nicolas.Schmelling@hhu.de</a></p>
+    </footer>
+  </body>
 </html>
