@@ -12,6 +12,9 @@
 
     <link rel="stylesheet" type="text/css" href="css/cyano2017.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
   </head>
   <body>
@@ -147,8 +150,18 @@
            The location can be found in the map below or in the <a href="https://www.uni-duesseldorf.de/home/fileadmin/redaktion/Oeffentliche_Medien/Karten-Anfahrtplaene-HHU/Infocenter__Lage_und_Anreise/HHU_Campusplan_Juni_2016.pdf" target="_blank">campus map</a>.</p>
         <h3>Location</h3>
         <p>Heinrich Heine University, Düsseldorf</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1250.3281900637078!2d6.796965821724411!3d51.1885559456796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDExJzE4LjgiTiA2wrA0Nyc1MS4zIkU!5e0!3m2!1sde!2sus!4v1485284713279"
-        width="50%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div id="mapid"></div>
+        <script>
+          var mymap = L.map('mapid').setView([51.18858, 6.79747], 17);
+
+          L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(mymap);
+
+          var marker = L.marker([51.18858, 6.79747]).addTo(mymap);
+
+          marker.bindPopup("Welcome to<br><b>Cyano 2017</b>").openPopup();
+        </script>
         <h3>Accommodation</3>
         <p>If you are looking for a hotel, any hotel in downtown Düsseldorf will be suitable for you as they connect
            with U73 and U79 directly to the university. Hotels close to campus are <a href="http://www.hotel-haus-mooren.de/" target="_blank">Haus Mooren</a>,
