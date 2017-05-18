@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="css/cyano2017.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:820px)" href="css/cyano2017_mobile.css">
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
@@ -21,11 +22,11 @@
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#info">Information</a></li>
-        <li><a href="#schedule">Schedule</a></li>
-        <li><a href="#travel">Housing &amp; Travel</a></li>
-        <li><a href="mailto:Fabian.Brandenburg@hhu.de,Nicolas.Schmelling@hhu.de?subject=Cyano2017%20-%20Question%3A">Contact</a></li>
-        <li style="float:right"><a href="https://goo.gl/forms/WP9Xt3FkjDFQCaR83" target="_blank">Online Registration</a></li>
+        <li class="large"><a href="#info">Information</a></li>
+        <li class="large"><a href="#schedule">Schedule</a></li>
+        <li class="large"><a href="#travel">Housing &amp; Travel</a></li>
+        <li class="large"><a href="mailto:Fabian.Brandenburg@hhu.de,Nicolas.Schmelling@hhu.de?subject=Cyano2017%20-%20Question%3A">Contact</a></li>
+        <li><a href="https://goo.gl/forms/WP9Xt3FkjDFQCaR83" target="_blank">Online Registration</a></li>
       </ul>
     </nav>
     <header>
@@ -39,19 +40,29 @@
         <h1>Information</h1>
         <p>The symposium was initiated by the &lsquo;Vereinigung für Allgemeine und Angewandte Mikrobiologie&rsquo; (VAAM)
            in 2016 and is solely organized by students. The event&rsquo;s aim is to provide a platform for young
-           researches (master&rsquo;s students, PhD students, young PostDocs) interested in cyanobacteria to discuss
+           researchers (Master&rsquo;s students, PhD students, young PostDocs) interested in cyanobacteria to discuss
            their research. The symposium will also include a number of keynote lectures by invited guests.<br>
            All young research participants are encouraged to register with an abstract for either a poster
            presentation or a talk (15 min + 5 min discussion) through our online form until
            <time datetime="2017-07-01"><strong>1<sup>st</sup> of July</strong></time>.
            All other participants are welcome to register until <time datetime="2017-08-01"><strong>1<sup>st</sup> of August</strong></time>.<br>
-           There is no registration fee, however we may ask for a small contribution to our expenses for the
-           BBQ of 10-20 € depending on our overall founding. For information on travel to and housing in Düsseldorf
+           There is no registration fee, however, we may ask for a small contribution to our expenses for the
+           BBQ of 10-20€. Furthermore, we are happy to announce that a travel grand is available to all
+           VAAM members. For information on travel to and housing in Düsseldorf
            please refer to the <a href="#travel">Housing and Travel</a> section. For further questions don&rsquo;t hesitate to contact
            <a href="mailto:Fabian.Brandenburg@hhu.de,Nicolas.Schmelling@hhu.de?subject=Question%20regarding%20Cyano2017">Fabian and Nic</a>.</p>
+        <h1>Sponsors</h1>
+        <div class="sponsor">
+          <a href="http://www.vaam.de/" target="_blank"><img src="img/vaam.png"></a>
+          <a href="http://www.gffu.hhu.de/" target="_blank"><img src="img/gffu.png"></a>
+        </div>
+        <h1>Keynote Speaker</h1>
+        <p><strong>Prof. Dr. Jörg Nickelsen</strong> (Molecular Plant Science - LMU Munich)<br>
+           <strong>Dr. Pia Lindberg</strong> (Microbial Chemistry - Uppsala University)<br>
+           <strong>Dipl. Biol. Andreas Leimbach</strong> (Microbial Genomic Plasticity - WWU Muenster)<br></p>
       </section>
       <section class="button">
-        <p><a href="https://goo.gl/forms/WP9Xt3FkjDFQCaR83" target="_blank">Online Registration</a></p>
+        <a href="https://goo.gl/forms/WP9Xt3FkjDFQCaR83" target="_blank">Online Registration</a>
       </section>
       <section id="schedule">
         <h1>Preliminary Schedule</h1>
@@ -74,8 +85,12 @@
             <td>Break</th>
           </tr>
           <tr>
-            <td width="25%"></time datetime="2017-09-13T16:30">16:30</time> &ndash; </time datetime="2017-09-13T18:30">18:30</time></th>
+            <td width="25%"></time datetime="2017-09-13T16:30">16:30</time> &ndash; </time datetime="2017-09-13T18:30">17:30</time></th>
             <td>Talk Session</th>
+          </tr>
+          <tr>
+            <td width="25%"></time datetime="2017-09-13T16:30">17:30</time> &ndash; </time datetime="2017-09-13T18:30">18:30</time></th>
+            <td>Keynote Lecture by Prof. Dr. Jörg Nickelsen</th>
           </tr>
           <tr>
             <td width="25%"></time datetime="2017-09-13T18:30">18:30</time> &ndash; </time datetime="2017-09-13T20:00">20:00</time></th>
@@ -89,8 +104,12 @@
             <th>Session</th>
           </tr>
           <tr>
-            <td width="25%"></time datetime="2017-09-14T09:00">09:00</time> &ndash; </time datetime="2017-09-14T11:30">10:30</time></th>
+            <td width="25%"></time datetime="2017-09-14T09:00">09:00</time> &ndash; </time datetime="2017-09-14T11:30">10:00</time></th>
             <td>Talk Session</th>
+          </tr>
+          <tr>
+            <td width="25%"></time datetime="2017-09-14T09:00">10:00</time> &ndash; </time datetime="2017-09-14T11:30">10:30</time></th>
+            <td>Keynote Lecture by Dipl. Biol. Andreas Leimbach</th>
           </tr>
           <tr>
             <td width="25%"></time datetime="2017-09-14T10:30">10:30</time> &ndash; </time datetime="2017-09-14T11:00">11:00</time></th>
@@ -109,8 +128,12 @@
             <td>Special</th>
           </tr>
           <tr>
-            <td width="25%"></time datetime="2017-09-14T16:00">16:00</time> &ndash; </time datetime="2017-09-14T18:00">18:00</time></th>
+            <td width="25%"></time datetime="2017-09-14T16:00">16:00</time> &ndash; </time datetime="2017-09-14T18:00">17:00</time></th>
             <td>Talk Session</th>
+          </tr>
+          <tr>
+            <td width="25%"></time datetime="2017-09-14T16:00">17:00</time> &ndash; </time datetime="2017-09-14T18:00">18:00</time></th>
+            <td>Keynote Lecture by Dr. Pia Lindberg</th>
           </tr>
           <tr>
             <td width="25%"></time datetime="2017-09-14T18:00">18:00</time> &ndash; </time datetime="2017-09-14T19:00">19:00</time></th>

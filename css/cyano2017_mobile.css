@@ -9,7 +9,7 @@ body {
 }
 
 body p {
-  font-size: 18px;
+  font-size: 16px;
   text-align: justify;
 }
 
@@ -21,49 +21,26 @@ p {
   font-weight: 300;
 }
 
-nav {
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  z-index: 2;
-  width: 100%;
-  background-color: #2E6E65;
+.large {
+  display: none;
 }
 
 nav ul {
   list-style-type: none;
-  width: 800px;
+  width: 97.5%;
   margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 1.25%;
+  margin-right: 1.25%;
   padding: 0;
 }
 
 nav li {
   float: left;
-  border-right: 2px solid #F4F7ED;
+  border-right: 0px solid #F4F7ED;
 }
 
 nav li:last-child {
-  border-right: none;
-}
-
-nav a {
-  display: block;
-  font-weight: 300;
-  color: #F4F7ED;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  letter-spacing: 0.05em;
-  padding: 10px;
-  background-color: #2E6E65;
-}
-
-nav a:hover {
-  background-color: #F4F7ED;
-  color: #2E6E65;
-  font-weight: 300;
+  float: right;
 }
 
 header {
@@ -76,30 +53,37 @@ header {
 
 header h2 {
   font-weight: 100;
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  margin-left: 0px;
+  width: 100%;
+}
+
+@media screen and (max-width:504px) {
+  header h2 {
+    font-size: 18px
+  }
 }
 
 .welcome {
-  font-size: 40px;
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 36px;
+  text-align: center;
+  margin-left: 0px;
   padding-top: 40px;
+  width: 100%;
 }
 
 .title {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 35px;
+  font-size: 30px;
+  padding-top: 30px;
+  text-align: center;
+  margin-left: 0px;
+  width: 100%;
 }
 
 main {
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  width: 95%;
 }
 
 #info {
@@ -111,13 +95,13 @@ main {
 }
 
 .sponsor {
-  width: 600px;
+  width: 280px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .sponsor img {
-  margin-left: 30px;
+  margin-left: 0px;
 }
 
 .button {
@@ -148,7 +132,7 @@ main {
 }
 
 #schedule h3 {
-  max-width: 600px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -156,11 +140,11 @@ main {
 table {
   width: 100%;
   border-collapse: collapse;
+  font-size: 16px;
   line-height: 1.5;
-  max-width: 600px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 18px;
 }
 
 th, td {
@@ -185,7 +169,10 @@ tr:hover {
 
 #mapid {
   height: 300px;
+  width: 90%;
   max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
   z-index: 1;
 }
 
@@ -196,10 +183,6 @@ tr:hover {
 
 .names {
   line-height: 1.5;
-}
-
-iframe {
-  min-width: 300px;
 }
 
 footer h3 {
