@@ -167,6 +167,10 @@ tr:hover {
   color: #F4F7ED;
 }
 
+.initiall-hidden {
+  display: none;
+}
+
 #mapid {
   height: 300px;
   width: 90%;

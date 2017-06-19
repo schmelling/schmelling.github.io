@@ -16,7 +16,7 @@
     <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
-    <script>
+    <script type="text/javascript">
       $('.clicker').click(function(){
         $(this).nextUntil('.clicker').slideToggle('normal');
       });
@@ -85,8 +85,8 @@
             <td width="25%"></time datetime="2017-09-13T12:00">12:00</time> &ndash; </time datetime="2017-09-13T14:00">14:00</time></th>
             <td>Registration</th>
           </tr>
-          <tr>
-            <td></td>
+          <tr class="initiall-hidden">
+            <td width="25%"></td>
             <td>Some Text Here.</td>
           </tr>
           <tr class="clicker">
@@ -285,7 +285,7 @@
         <p class="names"><b>Fabian Brandenburg</b> &mdash; Institute of Plant Biochemistry<br>
         <b>Nicolas Schmelling</b> &mdash; Institute of Synthetic Microbiology<br>
         <b>Dr. Marion Eisenhut</b> &mdash; Institute of Plant Biochemistry<br>
-        <b>Jun.-Prof. Dr. Oliver Ebenhöh</b> &mdash; Institute of Quantitative and Theoretical Biology<br>
+        <!--<b>Jun.-Prof. Dr. Oliver Ebenhöh</b> &mdash; Institute of Quantitative and Theoretical Biology<br>-->
         <b>Jun.-Prof. Dr. Ilka M. Axmann</b> &mdash; Institute of Synthetic Microbiology</p>
       </section>
       <hr>
