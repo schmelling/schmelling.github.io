@@ -183,10 +183,6 @@ tr:hover {
   color: #F4F7ED;
 }
 
-.initial-hidden {
-  display: none;
-}
-
 #mapid {
   height: 300px;
   max-width: 800px;
